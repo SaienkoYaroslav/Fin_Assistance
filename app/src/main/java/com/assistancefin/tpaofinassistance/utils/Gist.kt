@@ -10,7 +10,8 @@ import java.net.URL
 
 object Gist {
 
-    private const val URL_STRING = "https://gist.githubusercontent.com/YaroslavGGG/92c790b8a2bc36b78e5f08da12f7b01f/raw/com.assistancefin.tpaofinassistance"
+    // TODO: put correct link here
+    private const val URL_STRING = "put gist link here"
 
     suspend fun getDataJson(): DataJSON? = withContext(Dispatchers.IO) {
         try {
